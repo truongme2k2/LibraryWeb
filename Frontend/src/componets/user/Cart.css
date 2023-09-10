@@ -1,0 +1,35 @@
+.review-modal {
+    width: 30vw;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #B0DAFF;
+  padding: 20px;
+  z-index: 9999;
+  border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.icon{
+    color: white;
+    font-size: 40px;
+    margin: 5px;
+}
+.icon:hover{
+    color: yellow;
+    cursor: pointer;
+}
+.icon.yellow {
+    color: yellow;
+  }
+  
+.list-icon{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.margin-bot{
+  margin-bottom: 10px;
+}

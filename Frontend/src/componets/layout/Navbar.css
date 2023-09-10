@@ -1,0 +1,22 @@
+.nav-link{
+    color: white;
+}
+.navbar-brand {
+    color: white;
+}
+
+.icon-avatar{
+    width: 35px;
+    height: 35px;
+    background-color: aqua;
+    color: white ;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    border-radius: 35px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.bg{
+    background-color: #19A7CE;
+}
