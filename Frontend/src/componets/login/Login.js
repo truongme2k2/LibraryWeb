@@ -42,8 +42,8 @@ function Login(props) {
         }
         else {
           localStorage.setItem("accessUser", true)
-          const userId = response.data;
-          localStorage.setItem('userId', userId);
+          const userId = data.userId;
+          localStorage.setItem("userId", userId);
           window.location.href = '/home';
         }
       })
